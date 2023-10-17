@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colorBack: #040305;
+    --colorPurple: #9800ce;
+    --colorGrey: rgb(87,87,87);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 5em;
+    background: var(--colorBack);
+
+    color: var(--colorGrey);
+}
+.containerST span{
+   animation: StarWars 3s ease-in-out infinite;
+}
+.containerST span:nth-of-type(2){
+    animation-delay: 0.25s;
+}
+.containerST span:nth-of-type(3){
+    animation-delay: 0.50s;
+}
+.containerST span:nth-of-type(4){
+    animation-delay: 0.75s;
+}
+.containerST span:nth-of-type(5){
+    animation-delay: 1s;
+}
+.containerST span:nth-of-type(6){
+    animation-delay: 1.25s;
+}
+.containerST span:nth-of-type(7){
+    animation-delay: 1.50s;
+}
+.containerST span:nth-of-type(8){
+    animation-delay: 1.75s;
+}
+.containerST span:nth-of-type(9){
+    animation-delay: 2s;
+}
+@keyframes StarWars{
+    0%{
+        color: white;
+        text-shadow: 0 0 12px yellow,
+        0 0 50px yellow,
+        0 0 100px yellow;
+    }
+    10%, 90%{
+        color: var(--colorGrey);
+        text-shadow: none ;
+    }
+}
+@keyframes rotate
+{
+    to
+    {
+        --angle: 360deg
+    }
+}
+@property --angle
+{
+
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.rainbow
+{
+
+}
+.saiba {
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px rgb(255, 238, 0);
+}
