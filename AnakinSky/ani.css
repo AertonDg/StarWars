@@ -5,12 +5,14 @@ body{
 }
 
 .tit{
-    text-shadow: 5px 5px 5px rgb(0, 38, 255);
+    text-shadow: 5px 5px 5px #0026ff;
     text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .tit2{
     text-shadow: 5px 5px 5px rgb(0, 255, 21);
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -27,6 +29,7 @@ body{
 .luke{
     color: white;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .mestre{
     color: white;
@@ -41,6 +44,8 @@ body{
 }
 .his{
     text-shadow: 5px 5px 5px rgb(0, 218, 18);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .mestl{
     color: rgb(255, 255, 255);
@@ -52,6 +57,7 @@ body{
     color: white;
     text-shadow: 5px 5px 5px rgb(255, 5, 5);
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    
 
 
@@ -59,18 +65,22 @@ body{
 }
 .jedi1{
     display: flex;
-    font-weight: bold;
     align-items: center;
     text-shadow: 5px 5px 5px rgb(0, 225, 255);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
 }
 .jedi1 img{
     margin-left: 10px;
+    
 }
 .tiltD{
     color: white;
     text-align: center;
     text-shadow: 5px 5px 5px rgb(255, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .container2{
@@ -102,6 +112,8 @@ body{
 .poder{
     color: white;
     text-shadow: 5px 5px 5px rgb(255, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
     /* --angle: 0deg;
     border: 5px solid transparent;
     border-radius: 10px;
@@ -113,6 +125,8 @@ body{
 .aprendi{
     color: white;
     text-shadow: 5px 5px 5px rgb(255, 5, 5);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container3{
     display: flex;
@@ -126,10 +140,7 @@ body{
 .btn-box-luke a{
     position: relative;
     background: rgb(0, 0, 0);
-    width: 60px;
     height: auto;
-    border-radius: 5px;
-    border: 2px solid white;
     top: 5rem;
     left: 45%;
     justify-content: center;
@@ -140,7 +151,6 @@ body{
     border: 5px solid transparent;
     border-radius: 10px;
     border-image: conic-gradient(from var(--angle) , rgb(46, 255, 31) , rgb(18, 203, 89) , rgb(66, 132, 50),rgb(0, 255, 123)  ) 1;
-    border-radius: 10px;
     width: 170px;
     animation: 6s rotate linear infinite;
     text-decoration: none;
@@ -150,10 +160,7 @@ body{
 .btn-box-darth a{
     position: relative;
     background: rgb(0, 0, 0);
-    width: 60px;
     height: auto;
-    border-radius: 5px;
-    border: 2px solid white;
     top: 5rem;
     left: 45%;
     justify-content: center;
@@ -161,10 +168,8 @@ body{
     display: flex;
     text-align: center;
     --angle: 0deg;
-    border: 5px solid transparent;
-    border-radius: 10px;
+    border: 5px solid transparent ;
     border-image: conic-gradient(from var(--angle) , rgb(189, 6, 6) , rgb(255, 0, 0) , rgb(202, 5, 5),rgb(255, 64, 64)  ) 1;
-    border-radius: 10px;
     width: 170px;
     animation: 6s rotate linear infinite;
     text-decoration: none;
@@ -177,6 +182,8 @@ body{
 .aprendi2{
     color: white;
     text-shadow: 5px 5px 5px rgb(0, 218, 18);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .container6{
@@ -185,6 +192,8 @@ body{
 }
 .aprendi4{
     text-shadow: 5px 5px 5px rgb(0, 225, 255);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 }
@@ -192,13 +201,12 @@ body{
     color: white;
     text-align: center;
     text-shadow: 5px 5px 5px rgb(0, 38, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .btn-box-ani a{
     position: relative;
     background: rgb(0, 0, 0);
     height: auto;
-    border-radius: 5px;
-    border: 2px solid white;
     top: 5rem;
     left: 45%;
     justify-content: center;
@@ -207,11 +215,24 @@ body{
     text-align: center;
     --angle: 0deg;
     border: 5px solid transparent;
-    border-radius: 10px;
     border-image: conic-gradient(from var(--angle) , rgb(225, 255, 0) , rgb(255, 247, 0) , rgb(205, 167, 0),rgb(255, 221, 1)  ) 1;
-    border-radius: 10px;
     width: 170px;
     animation: 6s rotate linear infinite;
     text-decoration: none;
+    border-radius: 10px;
+}
+.saiba {
+    font-size: 2px;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px rgb(255, 238, 0);
+    text-align: center;
+}
+.fgduelo{
+  align-items: center;
+    
+}   
 
+.duelo{
+    height: 90px;
+    margin: auto;
 }

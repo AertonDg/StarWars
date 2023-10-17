@@ -10,11 +10,13 @@
 }
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 5em;
+    font-size: 10em;
     background: var(--colorBack);
+    background-image: url('./img/star-wars-zoom-background-imperial-star-destroyer.webp');
 
     color: var(--colorGrey);
 }
@@ -75,9 +77,4 @@ body{
 .rainbow
 {
 
-}
-.saiba {
-    font-size: 20px;
-    text-decoration: none;
-    text-shadow: 5px 5px 5px rgb(255, 238, 0);
 }
