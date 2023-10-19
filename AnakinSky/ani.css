@@ -229,4 +229,17 @@ body{
 .duelo{
     height: 90px;
     margin: auto;
+
+
 }
+.duelo:hover{
+    transition: 1s;
+    height: 170px;
+
+}
+
+
+
+
+
+
